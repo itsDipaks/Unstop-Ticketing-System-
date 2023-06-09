@@ -1,0 +1,11 @@
+.Coach-box{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(12,auto);
+    width: 40%;
+    margin: auto;
+    gap: 0.5rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 10px;
+}
