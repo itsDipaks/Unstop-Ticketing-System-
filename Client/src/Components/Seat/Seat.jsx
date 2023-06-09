@@ -1,8 +1,7 @@
 import React from "react";
-import "./Seat.css"
 const Seat = ({SeatData}) => {
   return (
-    <div className='seat-box' >
+    <div className=' border p-4' >
       <h5>Seat  {SeatData?.SeatNumber}</h5>
      
     </div>
