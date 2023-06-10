@@ -10,13 +10,10 @@ const Coach = () => {
   useEffect(() => {
     GetAllData(setloading, setAllSeats);
   }, []);
-
-  console.log(allSeats);
-
   return (
     <div className="flex w-full  m-auto mt-32	">
       <div id="leftbox">
-        <div class="mt-6 fixed left-44 border p-14 rounded  ">
+        <div class="mt-6 fixed left-44 border p-14 rounded  bg-gray-200 ">
           <label for="success" class="block mb-2 text-sm font-medium  ">
            Enter Number of Tickets
           </label>
