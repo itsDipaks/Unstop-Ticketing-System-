@@ -203,6 +203,9 @@ function App() {
             <div className="_rounded_box_message">
               {/* <!-- Message indicating booked seats --> */}
               <p>Booked Seats</p>
+
+
+              
               {/* <!-- Message indicating available seats --> */}
               <p>Available Seats</p>
             </div>
